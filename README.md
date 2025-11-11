@@ -25,7 +25,6 @@
 
 ---
 
-## 🎯 What is Karnix?
 
 ## 🎯 What is Karnix?
 
