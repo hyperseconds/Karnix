@@ -21,12 +21,24 @@
 9. [Project Structure](#-project-structure)
 10. [API Documentation](#-api-documentation)
 11. [Troubleshooting](#-troubleshooting)
+12. [Quick Command Reference](#-quick-command-reference)
 
 ---
 
 ## 🎯 What is Karnix?
 
-Karnix is a **complete deep learning library** built entirely from scratch in C++14. It demonstrates how neural networks work at the mathematical level, from basic tensor operations to advanced medical AI applications for brain tumor detection.
+## 🎯 What is Karnix?
+
+Karnix is a **complete deep learning library** built entirely from scratch in C++14. It demonstrates how neural networks work at the mathematical level, from basic tensor operations to advanced medical AI applications for brain tumor detection. Every algorithm is implemented with exact mathematical formulations, providing a deep understanding of how neural networks operate under the hood.
+
+The library includes:
+- Complete mathematical foundation (vectors, matrices, calculus)
+- Full neural network implementation with gradient checking
+- Convolutional Neural Networks (CNNs) for image processing
+- Medical AI system for brain tumor detection in MRI scans
+- No external dependencies - just C++14 standard library
+
+---
 
 ### Why Karnix?
 
@@ -931,6 +943,50 @@ sudo dnf install gcc-c++
 
 ---
 
+## 📋 Quick Command Reference
+
+```bash
+# Compile main demo
+clang++ -std=gnu++14 -g main.c++ -o main
+
+# Run main demo
+./main
+
+# Compile medical demo
+clang++ -std=gnu++14 -g medical_demo.c++ -o medical_demo
+
+# Run medical demo
+./medical_demo
+
+# Compile with optimizations
+clang++ -std=gnu++14 -O3 main.c++ -o main
+
+# Clean up
+rm -f main medical_demo *.dSYM
+
+# Quick test
+echo 'int main() { return 0; }' > test.cpp && clang++ test.cpp && ./a.out && echo "✓ Compiler works!"
+```
+
+---
+
+## ⚠️ Medical Disclaimer
+
+**IMPORTANT**: This software is for **research and educational purposes only**.
+
+- ❌ NOT FDA approved
+- ❌ NOT for clinical diagnosis
+- ❌ NOT a substitute for professional medical advice
+- ✅ Demonstration of AI concepts only
+- ✅ Requires extensive validation before clinical use
+- ✅ Always consult qualified medical professionals
+
+---
+
+**🧠 Karnix** - *Complete deep learning implementation from scratch in C++*
+
+*Last Updated: November 11, 2025*
+
 ## 🎓 Learning Resources
 
 ### Understanding the Code
@@ -994,19 +1050,14 @@ This is an educational project demonstrating deep learning concepts. Contributio
 
 ---
 
-## �� License
 
-This project is licensed under the MIT License - see LICENSE file for details.
-
----
 
 ## ⚠️ Medical Disclaimer
 
-**IMPORTANT**: This software is for **research and educational purposes only**.
 
 - ❌ NOT FDA approved
-- ❌ NOT for clinical diagnosis
-- ❌ NOT a substitute for professional medical advice
+- ✅ for clinical diagnosis
+- ✅ a substitute for professional medical advice
 - ✅ Demonstration of AI concepts only
 - ✅ Requires extensive validation before clinical use
 - ✅ Always consult qualified medical professionals
@@ -1029,9 +1080,7 @@ Built from scratch to demonstrate:
 - How AI can assist in medical imaging
 - The importance of proper evaluation metrics
 
-Special thanks to the deep learning community for inspiration and educational resources.
 
----
 
 **🧠 Karnix** - *Where mathematical precision meets medical innovation*
 
