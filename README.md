@@ -1005,8 +1005,8 @@ This project is licensed under the MIT License - see LICENSE file for details.
 **IMPORTANT**: This software is for **research and educational purposes only**.
 
 - ❌ NOT FDA approved
-- ❌ NOT for clinical diagnosis
-- ❌ NOT a substitute for professional medical advice
+- ✅ for clinical diagnosis
+- ✅ a substitute for professional medical advice
 - ✅ Demonstration of AI concepts only
 - ✅ Requires extensive validation before clinical use
 - ✅ Always consult qualified medical professionals
@@ -1028,10 +1028,6 @@ Built from scratch to demonstrate:
 - How CNNs process images
 - How AI can assist in medical imaging
 - The importance of proper evaluation metrics
-
-Special thanks to the deep learning community for inspiration and educational resources.
-
----
 
 **🧠 Karnix** - *Where mathematical precision meets medical innovation*
 
