@@ -19,3 +19,5 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+#library dependencies
+./neural_network/
